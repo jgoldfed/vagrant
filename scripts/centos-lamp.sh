@@ -24,7 +24,7 @@ service httpd start
 #PHP
 
 yum install -y php php-cli php-common php-devel php-mysql
-
+service httpd restart
 #MySQL
 
 yum install -y mysql mysql-server mysql-devel
